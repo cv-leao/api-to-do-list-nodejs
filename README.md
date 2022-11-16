@@ -21,3 +21,13 @@ O ORM utilizado neste projeto será o [TypeORM](https://typeorm.io/), que para i
     npm install typeorm reflect-metadata pg
 
 Obs: No comando acima, está sendo instalado também a biblioteca do postgres a partir do "pg", pois é o banco de dados que será utilizado.
+
+Instalando o [CORS](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS):
+
+    npm install cors express-async-errors
+
+Obs: O express-async-errors, é para conseguir trabalhar com requisições assíncronas em casos de tratamentos de erros
+
+Execute também o seguinte comando no terminal:
+
+    npm install @types/express @types/cors
