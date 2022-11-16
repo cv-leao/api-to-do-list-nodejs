@@ -4,7 +4,7 @@ Primeiramente, para iniciar o projeto, é executado o seguinte comando no termin
 
     npm init
 
-Agora, vamos instalar o [express](https://expressjs.com/pt-br/){:target="_blank"}, que é um framework web para aplicações Node.js que flexibiliza o gerenciamento de requisições, criação de rotas, criação de middlewares... E para realizar a instalação, utilize o seguinte comando no terminal:
+Agora, vamos instalar o [express](https://expressjs.com/pt-br/), que é um framework web para aplicações Node.js que flexibiliza o gerenciamento de requisições, criação de rotas, criação de middlewares... E para realizar a instalação, utilize o seguinte comando no terminal:
 
     npm install express
 
@@ -16,13 +16,13 @@ Para criar o arquivo tsconfig.json já habilitando alguns recursos, utilize o co
 
     npx tsc --init --rootDir src --outDir build --esModuleInterop --resolveJsonModule --lib es6 --module commonjs --allowJs true --noImplicitAny true
 
-O ORM utilizado neste projeto será o [TypeORM](https://typeorm.io/){:target="_blank"}, que para instalar, é necessário executar o comando:
+O ORM utilizado neste projeto será o [TypeORM](https://typeorm.io/), que para instalar, é necessário executar o comando:
 
     npm install typeorm reflect-metadata pg
 
 Obs: No comando acima, está sendo instalado também a biblioteca do postgres a partir do "pg", pois é o banco de dados que será utilizado.
 
-Instalando o [CORS](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS){:target="_blank"}:
+Instalando o [CORS](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS):
 
     npm install cors express-async-errors
 
