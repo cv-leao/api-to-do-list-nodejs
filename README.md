@@ -14,4 +14,4 @@ Instale as seguintes dependências de desenvolvimento:
 
 Para criar o arquivo tsconfig.json já habilitando alguns recursos, utilize o comando a seguir:
 
-    npx tsc --init --rootDir src --outDir build \ --esModuleInterop --resolveJsonModule --lib es6 \ --module commonjs --allowJs true --noImplicitAny true
+    npx tsc --init --rootDir src --outDir build --esModuleInterop --resolveJsonModule --lib es6 --module commonjs --allowJs true --noImplicitAny true
