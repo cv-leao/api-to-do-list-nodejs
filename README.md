@@ -15,3 +15,9 @@ Instale as seguintes dependências de desenvolvimento:
 Para criar o arquivo tsconfig.json já habilitando alguns recursos, utilize o comando a seguir:
 
     npx tsc --init --rootDir src --outDir build --esModuleInterop --resolveJsonModule --lib es6 --module commonjs --allowJs true --noImplicitAny true
+
+O ORM utilizado neste projeto será o [TypeORM](https://typeorm.io/), que para instalar, é necessário executar o comando:
+
+    npm install typeorm reflect-metadata pg
+
+Obs: No comando acima, está sendo instalado também a biblioteca do postgres a partir do "pg", pois é o banco de dados que será utilizado.
