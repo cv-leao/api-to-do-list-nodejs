@@ -1,9 +1,7 @@
-import "reflect-metadata";
 import express, { NextFunction, Request, Response } from "express";
 import cors from "cors";
 import routes from "./routes";
 import AppError from "../errors/AppError";
-import "../typeorm";
 
 const app = express();
 
@@ -28,5 +26,5 @@ app.use(
 );
 
 app.listen(3001, () => {
-  console.log("Server started on port 3001!");
+  console.log("Server started on port 3001!🎉");
 });

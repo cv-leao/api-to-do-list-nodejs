@@ -16,11 +16,19 @@ Para criar o arquivo tsconfig.json já habilitando alguns recursos, utilize o co
 
     npx tsc --init --rootDir src --outDir build --esModuleInterop --resolveJsonModule --lib es6 --module commonjs --allowJs true --noImplicitAny true
 
-O ORM utilizado neste projeto será o [TypeORM](https://typeorm.io/), que para instalar, é necessário executar o comando:
+O ORM utilizado neste projeto será o [Prisma](https://www.prisma.io/), que para instalar, é necessário executar o comando:
 
-    npm install typeorm reflect-metadata pg
+    npm install prisma -D
 
-Obs: No comando acima, está sendo instalado também a biblioteca do postgres a partir do "pg", pois é o banco de dados que será utilizado.
+Para que seja possível criar toda a estrutura do banco de dados, será necessário inicializar o prisma:
+
+    npx prisma init
+
+Para criar uma migration, use o seguinte comando:
+
+    npx prisma migrate dev
+
+Feito isso, será geranda uma pasta na raiz do projeto com o nome "prisma", você irá encontrar um arquivo com o nome "schema.prisma", a criação e edição das tabelas do banco de dados serão feitas nesse arquivo.
 
 Instalando o [CORS](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS):
 
