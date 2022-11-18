@@ -17,3 +17,5 @@ class TasksController {
     return response.json(task);
   }
 }
+
+export default TasksController;
