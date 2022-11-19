@@ -59,6 +59,24 @@ Listar todas as tasks:
         }
     ]
 
+Atualizar status da task:
+
+    Método HTTP: PUT
+
+    Rota: /tasks/update/:id
+
+    Entrada:
+    {
+        "status": "..."
+    }
+
+    Saída:
+    {
+        "id": "6b04e894-fc8f-43c5-8a51-b71e176467f2",
+        "description": "Colocar no README.md",
+        "status": "Feito"
+    }
+
 ## Alguns passos que devem ser seguidos para replicar esta API:
 
 Primeiramente, para iniciar o projeto, é executado o seguinte comando no terminal dentro da pasta desejada:
