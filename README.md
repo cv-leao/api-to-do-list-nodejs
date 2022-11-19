@@ -38,6 +38,27 @@ Criar Task:
 Informação adicional: Existem somente 3 tipos de status, "A Fazer", "Fazendo" e "Feito".
 Obs: No momento da criação de uma task, o status eceita somente duas entradas, "A fazer" e "Fazendo".
 
+Listar todas as tasks:
+
+    Método HTTP: GET
+
+    Rota: /tasks/all
+
+    Sem entrada.
+
+    Saída:
+    [
+        {
+            ...
+        },
+        {
+            ...
+        },
+        {
+            ...
+        }
+    ]
+
 ## Alguns passos que devem ser seguidos para replicar esta API:
 
 Primeiramente, para iniciar o projeto, é executado o seguinte comando no terminal dentro da pasta desejada:
