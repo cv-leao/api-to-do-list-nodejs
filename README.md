@@ -1,5 +1,7 @@
 ## API To Do List utilizando Node.js
 
+Este repositório é de uma to do list simples, não existe usuário, porém é algo que talvez eu daqui a algum tempo.
+
 ##
 
 ## Histórias de Usuário:
@@ -12,7 +14,22 @@
 
 ##
 
-## Alguns passos que devem ser seguidos para fazer uma API igual:
+## Rotas, entradas e saídas para a utilização desta API ao clonar o repositório:
+
+Criar Task:
+
+    Método HTTP: POST
+
+    Rota: /tasks/create
+
+    Entrada(json): {
+    "description": "Criar uma API",
+    "status": "Fazendo"
+    }
+
+    Saída:
+
+## Alguns passos que devem ser seguidos para replicar esta API:
 
 Primeiramente, para iniciar o projeto, é executado o seguinte comando no terminal dentro da pasta desejada:
 
