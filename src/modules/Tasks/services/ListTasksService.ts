@@ -3,7 +3,7 @@ import { prismaClient } from "src/database/prismaClient";
 
 class ListTasksService {
   public async execute(): Promise<Tasks[]> {
-    const tasks = prismaClient.tasks.findMany();
+    const tasks = await prismaClient.tasks.findMany();
 
     return tasks;
   }
