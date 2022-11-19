@@ -5,5 +5,6 @@ const tasksRouter = Router();
 const tasksController = new TasksController();
 
 tasksRouter.post("/create", tasksController.create);
+tasksRouter.get("/all", tasksController.indexAll);
 
 export default tasksRouter;
