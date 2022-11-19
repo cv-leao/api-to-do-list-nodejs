@@ -67,7 +67,7 @@ Atualizar status da task:
 
     Entrada:
     {
-        "status": "..."
+        "status": "Feito"
     }
 
     Saída:
