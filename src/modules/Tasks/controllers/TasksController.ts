@@ -39,7 +39,7 @@ class TasksController {
 
     const updateTaskService = new UpdateTaskService();
 
-    const taskUpdated = updateTaskService
+    const taskUpdated = await updateTaskService
       .execute({ id, status })
       .catch((error) => {
         response.statusCode;
