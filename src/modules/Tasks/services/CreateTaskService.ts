@@ -9,12 +9,18 @@ interface ITaskToCreate {
 
 class CreateTaskService {
   public async execute({ description, status }: ITaskToCreate): Promise<Tasks> {
-    if (description === null) {
+    if (!description || description === "") {
       throw new AppError("A Task precisa de uma descrição.");
     }
 
-    if (status === null) {
+    if (!status || status === "") {
       throw new AppError("A Task precisa de um status.");
+    }
+
+    if (status != "A Fazer" && status != "Fazendo") {
+      throw new AppError(
+        "O status da Task deve iniciar com 'A Fazer' ou 'Fazendo'"
+      );
     }
 
     const task = prismaClient.tasks.create({
