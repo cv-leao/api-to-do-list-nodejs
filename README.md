@@ -38,7 +38,7 @@ Este repositório é de uma to do list simples, não existe usuário(conta), por
 Informação adicional: Existem somente 3 tipos de status, "A Fazer", "Fazendo" e "Feito".
 Obs: No momento da criação de uma task, o status eceita somente duas entradas, "A fazer" e "Fazendo".
 
-Listar todas as tasks:
+<h3>Listar todas as Tasks:</h3>
 
     Método HTTP: GET
 
@@ -59,7 +59,7 @@ Listar todas as tasks:
         }
     ]
 
-Atualizar status da task:
+<h3>Atualizar Status da Task:</h3>
 
     Método HTTP: PUT
 
