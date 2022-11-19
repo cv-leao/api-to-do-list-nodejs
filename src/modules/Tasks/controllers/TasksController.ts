@@ -1,6 +1,7 @@
 import { Request, Response } from "express";
 import CreateTaskService from "../services/CreateTaskService";
 import ListTasksService from "../services/ListTasksService";
+import UpdateTaskService from "../services/UpdateTaskService";
 
 class TasksController {
   public async create(request: Request, response: Response): Promise<Response> {
@@ -30,6 +31,22 @@ class TasksController {
     });
 
     return response.json(tasks);
+  }
+
+  public async update(request: Request, response: Response): Promise<Response> {
+    const { id } = request.params;
+    const { status } = await request.body;
+
+    const updateTaskService = new UpdateTaskService();
+
+    const taskUpdated = updateTaskService
+      .execute({ id, status })
+      .catch((error) => {
+        response.statusCode;
+        return error;
+      });
+
+    return response.json(taskUpdated);
   }
 }
 
