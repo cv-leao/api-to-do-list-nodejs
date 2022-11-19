@@ -1,16 +1,12 @@
 ## API To Do List utilizando Node.js
 
-##
-
 ## Histórias de Usuário:
 
     01 - eu como usuário preciso criar uma task - História Feita;
     02 - eu como usuário preciso listar todas as tasks - História A Fazer;
     03 - eu como usuário preciso editar uma task - História A Fazer;
     04 - eu como usuário preciso deletar uma task - História A Fazer;
-    05 - eu como usuário preciso listar todas as tasks com o status de A Fazer - História A Fazer;
-    06 - eu como usuário preciso listar todas as tasks com o status de Fazendo - História A Fazer;
-    07 - eu como usuário preciso listar todas as tasks com o status de Feito - História A Fazer;
+    05 - eu como usuário preciso listar as tasks com base no status - História A Fazer;
 
 Primeiramente, para iniciar o projeto, é executado o seguinte comando no terminal dentro da pasta desejada:
 
