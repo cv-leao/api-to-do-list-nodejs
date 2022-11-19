@@ -7,7 +7,7 @@ Este repositório é de uma to do list simples, não existe usuário, porém é 
 ## Histórias de Usuário:
 
     01 - Eu como usuário preciso criar uma task - História Feita;
-    02 - Eu como usuário preciso listar todas as tasks - História A Fazer;
+    02 - Eu como usuário preciso listar todas as tasks - História Feita;
     03 - Eu como usuário preciso editar uma task - História A Fazer;
     04 - Eu como usuário preciso deletar uma task - História A Fazer;
     05 - Eu como usuário preciso listar as tasks com base no status - História A Fazer;
@@ -46,7 +46,7 @@ Listar todas as tasks:
 
     Sem entrada.
 
-    Saída:
+    Saída(json):
     [
         {
             ...
