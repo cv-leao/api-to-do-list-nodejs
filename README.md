@@ -14,7 +14,7 @@ Este repositório é de uma to do list simples, não existe usuário, porém é 
 
 ##
 
-## Rotas, entradas e saídas para a utilização desta API ao clonar o repositório:
+## Informações para a utilização desta API ao clonar o repositório:
 
 Criar Task:
 
@@ -28,7 +28,7 @@ Criar Task:
         "status": "Fazendo"
     }
 
-    Saída:
+    Saída(json):
     {
         "id": "6b04e894-fc8f-43c5-8a51-b71e176467f2",
         "description": "Colocar no README.md",
