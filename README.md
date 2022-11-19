@@ -1,6 +1,6 @@
 ## API To Do List utilizando Node.js
 
-Este repositório é de uma to do list simples, não existe usuário, porém é algo que talvez eu daqui a algum tempo.
+Este repositório é de uma to do list simples, não existe usuário, porém é algo que talvez eu implemente daqui a algum tempo.
 
 ##
 
@@ -22,9 +22,10 @@ Criar Task:
 
     Rota: /tasks/create
 
-    Entrada(json): {
-    "description": "Criar uma API",
-    "status": "Fazendo"
+    Entrada(json):
+    {
+        "description": "Criar uma API",
+        "status": "Fazendo"
     }
 
     Saída:
