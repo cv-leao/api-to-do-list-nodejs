@@ -24,7 +24,7 @@ class TasksController {
   ): Promise<Response> {
     const listTasksService = new ListTasksService();
 
-    const tasks = listTasksService.execute().catch((error) => {
+    const tasks = await listTasksService.execute().catch((error) => {
       response.statusCode;
       return error;
     });
