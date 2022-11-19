@@ -65,12 +65,12 @@ Atualizar status da task:
 
     Rota: /tasks/update/:id
 
-    Entrada:
+    Entrada(json):
     {
         "status": "Feito"
     }
 
-    Saída:
+    Saída(json):
     {
         "id": "6b04e894-fc8f-43c5-8a51-b71e176467f2",
         "description": "Colocar no README.md",
