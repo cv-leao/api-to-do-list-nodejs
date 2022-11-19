@@ -29,6 +29,14 @@ Criar Task:
     }
 
     Saída:
+    {
+        "id": "6b04e894-fc8f-43c5-8a51-b71e176467f2",
+        "description": "Colocar no README.md",
+        "status": "Fazendo"
+    }
+
+Informação adicional: Existem somente 3 tipos de status, "A Fazer", "Fazendo" e "Feito".
+Obs: No momento da criação de uma task, o status eceita somente duas entradas, "A fazer" e "Fazendo".
 
 ## Alguns passos que devem ser seguidos para replicar esta API:
 
