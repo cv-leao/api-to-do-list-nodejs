@@ -6,11 +6,11 @@ Este repositório é de uma to do list simples, não existe usuário(conta), por
 
 ## Histórias de Usuário:
 
-    01 - Eu como usuário preciso criar uma task                     - História Feita;
-    02 - Eu como usuário preciso listar todas as tasks              - História Feita;
-    03 - Eu como usuário preciso editar uma task                    - História Feita;
-    04 - Eu como usuário preciso deletar uma task                   - História A Fazer;
-    05 - Eu como usuário preciso listar as tasks com base no status - História A Fazer;
+    HU001 - Eu como usuário preciso criar uma task                     - História Feita;
+    HU002 - Eu como usuário preciso listar todas as tasks              - História Feita;
+    HU003 - Eu como usuário preciso editar uma task                    - História Feita;
+    HU004 - Eu como usuário preciso deletar uma task                   - História A Fazer;
+    HU005 - Eu como usuário preciso listar as tasks com base no status - História A Fazer;
 
 ##
 
