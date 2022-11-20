@@ -1,6 +1,6 @@
 ## API To Do List utilizando Node.js
 
-Este repositório é de uma to do list simples, não existe usuário(conta), porém é algo que talvez eu implemente daqui a algum tempo.
+Este repositório é de uma to do list simples, não existe usuário(conta), porém é algo que eu talvez implemente daqui a algum tempo.
 
 ##
 
