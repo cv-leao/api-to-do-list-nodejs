@@ -10,7 +10,7 @@ Este repositório é de uma to do list simples, não existe conta, porém é alg
     02 - Como usuário, eu quero listar todas as tasks              - História Feita;
     03 - Como usuário, eu quero editar uma task                    - História Feita;
     04 - Como usuário, eu quero deletar uma task                   - História Feita;
-    05 - Como usuário, eu quero listar as tasks com base no status - História A Fazer;
+    05 - Como usuário, eu quero listar as tasks com base no status - História Feita;
 
 ##
 
@@ -97,6 +97,27 @@ Obs: No momento da criação de uma task, o status eceita somente duas entradas,
 
     Saída(json):
     []
+
+<h3>Listar Tasks com base no Status:</h3>
+
+    Método HTTP: GET
+
+    Rota: /tasks/:statusName
+
+    Sem entrada.
+
+    Saída(json):
+    [
+        {
+            ...
+        },
+        {
+            ...
+        },
+        {
+            ...
+        }
+    ]
 
 ## Alguns passos que devem ser seguidos para replicar esta API:
 
