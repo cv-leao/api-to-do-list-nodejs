@@ -19,8 +19,10 @@ Este repositório é de uma to do list simples, não existe conta, porém é alg
 Clique em "Code".
 ![](https://raw.githubusercontent.com/cv-leao/api-to-do-list-nodejs/main/assets/1.png)
 
-Copie a URL.
-![](https://raw.githubusercontent.com/cv-leao/api-to-do-list-nodejs/main/assets/2.png)
+<div>
+    Copie a URL.
+    ![](https://raw.githubusercontent.com/cv-leao/api-to-do-list-nodejs/main/assets/2.png)
+</div>
 
 ## Utilização da API:
 
