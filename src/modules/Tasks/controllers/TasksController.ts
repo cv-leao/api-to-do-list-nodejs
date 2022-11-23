@@ -1,6 +1,7 @@
 import { Request, Response } from "express";
 import CreateTaskService from "../services/CreateTaskService";
 import DeleteProductService from "../services/DeleteProductService";
+import ListByTaskStatusService from "../services/ListByTaskStatusService";
 import ListTasksService from "../services/ListTasksService";
 import UpdateTaskService from "../services/UpdateTaskService";
 
@@ -55,9 +56,30 @@ class TasksController {
 
     const deleteProduct = new DeleteProductService();
 
-    await deleteProduct.execute({ id });
+    await deleteProduct.execute({ id }).catch((error) => {
+      response.statusCode;
+      return error;
+    });
 
     return response.json([]);
+  }
+
+  public async listByStatus(
+    request: Request,
+    response: Response
+  ): Promise<Response> {
+    const { statusName } = request.params;
+
+    const listByTaskStatus = new ListByTaskStatusService();
+
+    const tasks = await listByTaskStatus
+      .execute({ statusName })
+      .catch((error) => {
+        response.statusCode;
+        return error;
+      });
+
+    return response.json(tasks);
   }
 }
 
