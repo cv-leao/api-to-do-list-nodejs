@@ -16,7 +16,7 @@ Este repositório é de uma to do list simples, não existe usuário(conta), por
 
 ## Clonando o repositório:
 
-[1]("assets/1.png")
+[1](assets/1.png)
 
 ## Utilização da API:
 
