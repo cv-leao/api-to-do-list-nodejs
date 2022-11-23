@@ -14,7 +14,7 @@ Este repositório é de uma to do list simples, não existe usuário(conta), por
 
 ##
 
-## Informações para a utilização desta API ao clonar o repositório:
+## Utilização da API:
 
 <h3>Criar Task:</h3>
 
