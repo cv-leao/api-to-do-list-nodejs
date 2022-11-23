@@ -9,7 +9,7 @@ Este repositório é de uma to do list simples, não existe conta, porém é alg
     01 - Como usuário, eu quero criar uma task                     - História Feita;
     02 - Como usuário, eu quero listar todas as tasks              - História Feita;
     03 - Como usuário, eu quero editar uma task                    - História Feita;
-    04 - Como usuário, eu quero deletar uma task                   - História A Fazer;
+    04 - Como usuário, eu quero deletar uma task                   - História Feita;
     05 - Como usuário, eu quero listar as tasks com base no status - História A Fazer;
 
 ##
