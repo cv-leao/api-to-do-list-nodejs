@@ -16,7 +16,7 @@ Este repositório é de uma to do list simples, não existe usuário(conta), por
 
 ## Clonando o repositório:
 
-[](https://raw.githubusercontent.com/cv-leao/api-to-do-list-nodejs/main/assets/1.png)
+[1](https://raw.githubusercontent.com/cv-leao/api-to-do-list-nodejs/main/assets/1.png)
 
 ## Utilização da API:
 
