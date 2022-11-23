@@ -87,6 +87,17 @@ Obs: No momento da criação de uma task, o status eceita somente duas entradas,
         "status": "Feito"
     }
 
+<h3>Deletar Task:</h3>
+
+    Método HTTP: DELETE
+
+    Rota: /tasks/delete/:id
+
+    Sem entrada.
+
+    Saída(json):
+    []
+
 ## Alguns passos que devem ser seguidos para replicar esta API:
 
 Primeiramente, para iniciar o projeto, é executado o seguinte comando no terminal dentro da pasta desejada:
