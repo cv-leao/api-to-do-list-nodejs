@@ -11,7 +11,7 @@ class ListByTaskStatusService {
     if (
       statusName != "A Fazer" &&
       statusName != "Fazendo" &&
-      statusName != "feito"
+      statusName != "Feito"
     ) {
       throw new AppError("Status inexistente.");
     }
