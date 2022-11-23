@@ -1,5 +1,6 @@
 import { Request, Response } from "express";
 import CreateTaskService from "../services/CreateTaskService";
+import DeleteProductService from "../services/DeleteProductService";
 import ListTasksService from "../services/ListTasksService";
 import UpdateTaskService from "../services/UpdateTaskService";
 
@@ -47,6 +48,16 @@ class TasksController {
       });
 
     return response.json(taskUpdated);
+  }
+
+  public async delete(request: Request, response: Response): Promise<Response> {
+    const { id } = request.params;
+
+    const deleteProduct = new DeleteProductService();
+
+    await deleteProduct.execute({ id });
+
+    return response.json([]);
   }
 }
 
