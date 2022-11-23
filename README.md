@@ -14,6 +14,10 @@ Este repositório é de uma to do list simples, não existe usuário(conta), por
 
 ##
 
+## Clonando o repositório:
+
+[]("assets/1.png")
+
 ## Utilização da API:
 
 <h3>Criar Task:</h3>
