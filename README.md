@@ -1,6 +1,6 @@
 ## API To Do List utilizando Node.js
 
-Este repositório é de uma to do list simples, não existe usuário(conta), porém é algo que eu talvez implemente daqui a algum tempo.
+Este repositório é de uma to do list simples, não existe conta, porém é algo que eu talvez implemente daqui a algum tempo.
 
 ##
 
@@ -18,6 +18,9 @@ Este repositório é de uma to do list simples, não existe usuário(conta), por
 
 Clique em "Code".
 ![Primeira imagem](https://raw.githubusercontent.com/cv-leao/api-to-do-list-nodejs/main/assets/1.png)
+
+Selecione a opção de copiar a URL.
+![](https://raw.githubusercontent.com/cv-leao/api-to-do-list-nodejs/main/assets/2.png)
 
 ## Utilização da API:
 
