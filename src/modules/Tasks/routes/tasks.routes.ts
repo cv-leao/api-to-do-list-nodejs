@@ -8,5 +8,6 @@ tasksRouter.post("/create", tasksController.create);
 tasksRouter.get("/all", tasksController.indexAll);
 tasksRouter.put("/update/:id", tasksController.update);
 tasksRouter.delete("/delete/:id", tasksController.delete);
+tasksRouter.get("/:statusName", tasksController.listByStatus);
 
 export default tasksRouter;
